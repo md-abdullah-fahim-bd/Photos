@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Google Photos to Sheets</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #f4f4f9;
+      color: #333;
+    }
+    #container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      color: #4285F4;
+    }
+    button {
+      background-color: #4285F4;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #357ae8;
+    }
+    #status {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #555;
+    }
+    .admin-note {
+      margin-top: 30px;
+      font-style: italic;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>Google Photos to Sheets</h1>
+    <p>Sign in with your Google account to authorize our app to get your photos and send links to our spreadsheet.</p>
+    <button id="signInButton">Sign in with Google</button>
+    <p id="status"></p>
+    <div class="admin-note">
+      <p>This service is managed by the admin: abdullahfahim01823281@gmail.com</p>
+    </div>
+  </div>
+
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
